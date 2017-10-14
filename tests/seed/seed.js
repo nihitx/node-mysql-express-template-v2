@@ -11,7 +11,7 @@ const users = [
         lastname : faker.name.lastName(),
         email:faker.internet.email(),
         password : 'masnadisawesomefuckyea',
-        token : jwt.sign({Owner : ownerOne},'secretkeyyo')
+        token : jwt.sign({Owner : ownerOne},'secretkey')
     },
     {
         Owner : ownerTwo,

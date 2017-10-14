@@ -10,3 +10,5 @@ CREATE TABLE `user` (
   `UPDATE_DT` datetime DEFAULT NULL,
   PRIMARY KEY (`ID`)
 ) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=latin1;
+
+insert into user (Owner, firstname, lastname, email, password,token, INSERT_DT) values (1,'Masnad','Hossain','masnad@admin.com', '2342342342fssdfds','123123123', now());
