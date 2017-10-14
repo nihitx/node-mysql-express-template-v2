@@ -9,10 +9,10 @@ if(env=="development"){
   });
 }else{
   var connection = mysql.createConnection({
-        host     : 'us-cdbr-iron-east-05.cleardb.net',
-        user     : 'b0350d64c4deb3',
-        password : 'ae902617',
-        database : 'heroku_98b4d00635d887c'
+        host     : 'us-cdbr-iron-east-05.cleardb.net', // I am using cleardb in heroku 
+        user     : '',
+        password : '',
+        database : ''
     });
 }
 
