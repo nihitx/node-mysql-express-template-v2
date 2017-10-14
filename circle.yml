@@ -5,7 +5,7 @@ machine:
 
   database:
     override:
-    - mysql -u ubuntu circle_test < database_create.sql
+    - mysql -u ubuntu circle_test < my-database-setup.sql
 
   dependencies:
     override:
