@@ -1,0 +1,14 @@
+machine:
+  node:
+    version: 8.2.0
+
+  database:
+    override:
+    - mysql -u ubuntu circle_test < database_create.sql
+
+  dependencies:
+    override:
+      - npm install --dev
+  test:
+    override:
+      -npm test
